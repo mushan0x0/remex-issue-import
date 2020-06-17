@@ -1,0 +1,25 @@
+{
+  "name": "remax-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project With TypeScript",
+  "main": "index.js",
+  "keywords": [],
+  "author": "mushan <mushan0x0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "parsec-hooks": "^0.0.64",
+    "react": "^16.12.0",
+    "remax": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.16",
+    "babel-plugin-import": "^1.13.0",
+    "cross-env": "^7.0.2",
+    "typescript": "^3.7.3"
+  }
+}
